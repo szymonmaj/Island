@@ -1,0 +1,117 @@
+Nr. porz.: 1, 2, 3
+Chatka rybaka
+Status I: (0) 0*
+Akcja 1: Gain +1 A
+Akcja 2: Go Status IIa -1 A
+Akcja 3: Go Status IIb -1 A
+Status IIa: (1) 0*
+Akcja 1: Gain +2 A
+Akcja 2: Go Status III -1 A -1 B
+Status IIb: (1) 0*
+Akcja 1: Gain +1 A +1 B
+Akcja 2: Go Status III -1 A -1 B
+Status III: (2) 0*
+Akcja 1: Gain +2 A +1 B
+
+Nr. porz.: 4, 5, 6
+Chatka drwala
+Status I: (0) 0*
+Akcja 1: Gain +1 B
+Akcja 2: Go Status IIa -1 A -1 B
+Status IIa: (1) 1*
+Akcja 1: Gain +1 B
+Akcja 2: Go Status III -1 B -1 C
+Status IIb: (2) 2*
+Akcja 1: Gain +2B
+Akcja 2: Go Status III -2  B -2 C
+Status III: (3) 5*
+
+Nr. porz.: 7, 8, 9
+Kamieniołom
+Status I: (0) 0*
+Akcja 1: Go Status IIa -2 B
+Akcja 2: Go Status IIb -2 A
+Status IIa: (1) 0*
+Akcja 1: Gain +1 C
+Akcja 2: Go Status III -1 A -2 B
+Status IIb: (1) 0*
+Akcja 1: Gain +1 C
+Akcja 2: Go Status III -2 A -1 B
+Status III: (2) 2*
+Akcja 1: Gain +2 C
+
+Nr. porz.: 10
+Targ
+Status I: (0) 0*
+Akcja 1: Gain -1 A/-1 B → +1 C 
+Akcja 2: Go Status IIa -2 B
+Akcja 3: Go Status IIb -2 A
+Status IIa: (1) 0*
+Akcja 1: Gain -1 B → +1 A +1 C 
+Akcja 2: Go Status III -1 B -1 C
+Status IIb: (1) 0*
+Akcja 1: Gain -1 A → +1 B +1 C 
+Akcja 2: Go Status III -1A -1 C
+Status III: (2) 0*
+Akcja 1: Gain -1 A/B/C → +1 A +1 B +1 C 
+
+Nr. porz.: 11
+Chatka kupca
+Status I: (0) 0*
+Akcja 1: Gain -2 A/-2 B → +1 A +1 B
+Akcja 2: Go Status IIa -1 A
+Akcja 3: Go Status IIb -1 B
+Status IIa: (1) 0*
+Akcja 1: Gain -2 A/-2 C → +3 B
+Akcja 2: Go Status III -1 A -1 B
+Status IIb: (1) 0*
+Akcja 1: Gain -2 B/-2 C → +3 A
+Akcja 2: Go Status III -1A -1 B
+Status III: (2) 0*
+Akcja 1: Gain -2 A/-2 B→ +3 C
+Akcja 2: Go Status IIa -1 C
+Akcja 3: Go Status IIb -1 C
+
+Nr. porz.: 12
+Warsztat
+Status I: (0) 0*
+Akcja 1: Go Status IIa -1 A -1 B
+Akcja 2: Go Status III -1 A -1 B -2 C
+Status IIa: (1) 0*
+Akcja 1: Gain +1 A +1 B
+Akcja 2: Go Status IIb -1 A -1 B -1C
+Status IIb: (2) 0*
+Akcja 1: Gain +1 A +1 B +1 C
+Akcja 2: Go Status III -2 A -2 B -2C
+Status III: (3) 4*
+
+Nr. porz.: 13, 14
+Chatka mieszkalna
+Status I: (0) 0*
+Akcja 1: Go Status IIa -1 A -1 B
+Status IIa: (1) 1*
+Akcja 1: Go Status IIb -1 A -1 B -1C
+Status IIb: (2) 3*
+Akcja : Go Status III -2 A -2 B -2C
+Status III: (3) 6*
+
+Nr. porz.: 15, 16
+Świątynia
+Status I: (0) 0*
+Akcja 1: Go Status IIa -1 A -1 B -2 C
+Status IIa: (1) 3*
+Akcja 1: Go Status IIb -2A -2 B -3C
+Status IIb: (2) 6*
+Akcja : Go Status III -3A -3 B -4C
+Status III: (3) 10*
+
+Nr. porz.: 17
+Runda 1-8
+
+Zasady:
+Losowanie kart 1-16 – kolejność do utrzymania przez 8 rund
+Po losowaniu możliwość obejrzenia układu kart → Przycisk OK → Możliwość obejrzenia 3 wierzchnich kart przez resztę rozgrywki
+Karta: można wykonać akcję z 1 z 2 wierzchnich kart, a następnie odłożyć kartę na koniec lub wierzchnią kartę odłożyć na koniec bez wykonywania żadnej akcji, można jednorazowo wykonać jedną akcję na każdej karcie
+Akcja Gain: zyskujesz surowce A, B lub C, z których możesz korzystać, a następnie odkładasz kartę na koniec. Można mieć równocześnie odłożone 4 karty Gain, korzysta się z nich modułowo, tzn. w całości, a nie gromadzi się surowce we wspólnej puli. Kiedy odłożona karta z akcją Gain nie zostanie wykorzystana i wróci na wierzch talii natychmiast jest odkładana na koniec. Można zastępować odłożoną kartę z akcją Gain nowo dobraną. Za wykonywanie akcji Status płaci się kartami z akcją Gain
+Po 8 rundach zlicza się gwiazdki
+Do wdrożenia w przyszłości moduł osiągnięć, nagród i dodatkowych kart.
